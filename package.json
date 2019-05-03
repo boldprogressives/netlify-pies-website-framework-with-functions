@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "postmark": "^1.6.1",
+    "handlebars": "^4.0.12",
+    "netlify-lambda": "^0.4.0"
+  }
+}
