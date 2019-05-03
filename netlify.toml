@@ -1,0 +1,4 @@
+[build]
+  functions = "compiled-functions/"
+  command = "netlify-lambda build functions && rm -rf public && mkdir public && unzip bundle.zip -d public"
+  publish = "public"
