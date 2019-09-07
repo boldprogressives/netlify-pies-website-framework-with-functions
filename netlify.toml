@@ -1,4 +1,4 @@
 [build]
   functions = "compiled-functions/"
-  command = "chmod +x .build.sh && ./build.sh"
+  command = "chmod +x ./build.sh && ./build.sh"
   publish = "public"
