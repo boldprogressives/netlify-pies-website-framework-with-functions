@@ -1,10 +1,10 @@
 var postmark = require("postmark");
 var Handlebars = require("handlebars");
 
-import credentialsConfig from "../functions-config/credentials.js";
-import emailConfig from "../functions-config/emails.js";
+//import credentialsConfig from "../functions-config/credentials.js";
+//import emailConfig from "../functions-config/emails.js";
 
-var client = new postmark.Client(credentialsConfig.postmarkApiToken);
+//var client = new postmark.Client(credentialsConfig.postmarkApiToken);
 
 exports.handler = function(event, context, callback) {
 
@@ -16,5 +16,5 @@ exports.handler = function(event, context, callback) {
       "TextBody": JSON.stringify(event)
     }
   ];
-  client.sendEmailBatch(emails);
+  //client.sendEmailBatch(emails);
 }
