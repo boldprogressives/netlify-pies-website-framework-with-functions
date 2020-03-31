@@ -7,4 +7,4 @@ cp -r netlify-pies-website-framework-with-functions/* ./
 rm -rf netlify-pies-website-framework-with-functions/
 netlify-lambda build functions
 rm -rf public && mkdir public 
-unzip bundle.zip -d public
+unzip -o bundle.zip -d public
